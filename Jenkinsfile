@@ -8,7 +8,7 @@ pipeline {
         }
         stage('system-check'){
             steps{
-                sh 'bash -x lscpu'
+                sh 'echo "I am devops"'
             }
         }
       }
